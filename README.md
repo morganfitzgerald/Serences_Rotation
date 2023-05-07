@@ -20,7 +20,7 @@ Results:
 Conclusion:
 This project aims to shed light on the underlying mechanisms of serial dependence and memory biases, and to determine whether they are a function of sensory or stimulus noise. The findings will have important implications for our understanding of how the brain processes information and adapts to noisy environments.
 
-#DATA:
+# DATA:
 Holly’s Data Columns 
 - [x] kappa - bandwidth of the orientation filter for the target stimuli (low kappa means an orientation that looks more noisy and high kappa is an orientation that looks clearer)
 - [x] traj - trajectory which is the trajectory of the response (which way they spun the orientation response line)
@@ -31,7 +31,7 @@ Holly’s Data Columns
 - [x] resp - final orientation response in degrees (aka respAngle)
 - [x] subject - participant
 
-#PLAN
+# PLAN
 filter the data based on kappa 
 - Bayesian models would predict that serial dependence is highest in low-high trials, prior would have most influence 
     - still strong for high-high but weaker 
